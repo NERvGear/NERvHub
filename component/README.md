@@ -1,4 +1,4 @@
-﻿## Choosing the home for a component
+﻿## Choosing The Home for A Component
 
 You can place and classify your components in different folders and catalogs according to the components' purposes:
 
@@ -17,7 +17,7 @@ If you want to define a new catalogs, please [open a new issue](https://github.c
 
 > [QUEST]New Catalog (_YOUR_CATALOG_HERE_)
 
-## Defining a component
+## Defining A Component
 
 > The demo component is defined in `NERvHub\component\ETC\CDemo.h`.
 
