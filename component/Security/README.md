@@ -1,0 +1,1 @@
+﻿Components cataloged in NERvGear::CATALOG::SECURITY can be placed in this folder.

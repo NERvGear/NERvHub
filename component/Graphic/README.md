@@ -1,0 +1,1 @@
+﻿Components cataloged in NERvGear::CATALOG::GRAPHIC can be placed in this folder.
