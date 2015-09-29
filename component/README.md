@@ -19,11 +19,13 @@ If you want to define a new catalogs, please [open a new issue](https://github.c
 
 ## Defining a component
 
+> The demo component is defined in `NERvHub\component\ETC\CDemo.h`.
+
 To define and publish a new component, what you need is just to write one single header with component ID declaration and Doxygen comments.
 
 The component's name should be started with a 'C' character and must distinguish from other components in the same catalog.
 
-Here's a completed sample defining a `NERvGear::ETC::CDemo` component:
+Here's an example header for `NERvGear::ETC::CDemo` component:
 
 ```CPP
 #ifndef NVG_ETC_CDEMO_H
@@ -33,7 +35,7 @@ Define header guard macro in form `NVG_` + _CATALOG_ + _COMPONENT_NAME_ + `_H` i
 ```CPP
 #include <NERvGear/component/CUnknown.h>
 ```
-Generally include this essential header for all components.
+Include this essential header for general components.
 ```CPP
 namespace NERvGear {
 
@@ -82,7 +84,8 @@ Ends with an empty line.
 ///     N/A
 ///
 ```
-Use the `\see` command to link some other relative components, objects, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.
+Use the `\see` command to link some other relative components, objects, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
+Ends with an empty line.
 ```
 /// \declid{Component,NERvGear::ETC::ID_CDemo,ETC-A63C-4B33-9826-0567701F6431}
 ```
@@ -91,7 +94,7 @@ This should be the last line of a component doxygen document.
 ```CPP
 NVG_DEFINE_UID(ID_CDemo, CATALOG::ETC, 0xA63C, 0x4B33, 0x98, 0x26, 0x05, 0x67, 0x70, 0x1F, 0x64, 0x31); ///< ETC-A63C-4B33-9826-0567701F6431
 ```
-Declare the component ID, use the `guidgen.exe` tool to generate IDs. Note that the first section of a component ID should be replaced by a _CATALOG_ enumeration value.
+Use `NVG_DEFINE_UID()` macro to declare the component ID, you can use the `guidgen.exe` tool to generate IDs. Note that the first section of a component ID should be replaced by a _CATALOG_ enumeration value.
 ```CPP
 } // ETC
 
@@ -102,5 +105,3 @@ End enclosing namespace.
 #endif // NVG_ETC_CDEMO_H
 ```
 The end of the header guard.
-
-> The original file is located in `NERvHub\component\ETC\CDemo.h`
