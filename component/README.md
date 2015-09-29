@@ -2,16 +2,16 @@
 
 You can place and classify your components in different folders and catalogs according to the components' purposes:
 
-| Catalog                     | Namespaces         | Folders                      |
-| --------------------------  | ------------------ | ---------------------------- |
-| NERvGear::CATALOG::SYSTEM   | NERvGear::System   | NERvHub\\component\\System   |
-| NERvGear::CATALOG::SECURITY | NERvGear::Security | NERvHub\\component\\Security |
-| NERvGear::CATALOG::NETWORK  | NERvGear::Network  | NERvHub\\component\\Network  |
-| NERvGear::CATALOG::DESKTOP  | NERvGear::Desktop  | NERvHub\\component\\Desktop  |
-| NERvGear::CATALOG::GRAPHIC  | NERvGear::Graphic  | NERvHub\\component\\Graphic  |
-| NERvGear::CATALOG::VIDEO    | NERvGear::Video    | NERvHub\\component\\Video    |
-| NERvGear::CATALOG::AUDIO    | NERvGear::Audio    | NERvHub\\component\\Audio    |
-| NERvGear::CATALOG::ETC      | NERvGear::ETC      | NERvHub\\component\\ETC      |
+| Catalogs          | Namespaces         | Pages            | Folders                      |
+| ----------------  | ------------------ | ---------------- | ---------------------------- |
+| CATALOG::SYSTEM   | NERvGear::System   | mod_com_system   | NERvHub\\component\\System   |
+| CATALOG::SECURITY | NERvGear::Security | mod_com_security | NERvHub\\component\\Security |
+| CATALOG::NETWORK  | NERvGear::Network  | mod_com_network  | NERvHub\\component\\Network  |
+| CATALOG::DESKTOP  | NERvGear::Desktop  | mod_com_desktop  | NERvHub\\component\\Desktop  |
+| CATALOG::GRAPHIC  | NERvGear::Graphic  | mod_com_graphic  | NERvHub\\component\\Graphic  |
+| CATALOG::VIDEO    | NERvGear::Video    | mod_com_video    | NERvHub\\component\\Video    |
+| CATALOG::AUDIO    | NERvGear::Audio    | mod_com_audio    | NERvHub\\component\\Audio    |
+| CATALOG::ETC      | NERvGear::ETC      | mod_com_etc      | NERvHub\\component\\ETC      |
 
 If you want to define a new catalogs, please [open a new issue](https://github.com/NERvGear/NERvSDK/issues) for the NERvSDK with title:
 
@@ -41,14 +41,14 @@ namespace NERvGear {
 
 namespace ETC {
 ```
-Start the enclosing namespace. Note that the components(and component IDs) should be defined in the _CATALOG_ namespace inside `NERvGear`, available namespaces are list in above section.
+Start the enclosing namespace. Note that the components(and component IDs) should be defined in the _CATALOG_ namespace inside `NERvGear`, available namespaces are list in previous section.
 
 The doxygen document starts from here using the `/// ` style comment.
 ```
 /// \ingroup mod_com_etc
 ///
 ```
-Use the `\ingroup` command to group a component into different document pages, the component page names are in form `mod_com_` + _CATALOG_ in lower case.  
+Use the `\ingroup` command to group a component into different document pages, the component page names are in form `mod_com_` + _CATALOG_ in lower case, available pages are list in previous section.
 Ends with an empty line.
 ```
 /// \component NERvGear::ETC::CDemo
