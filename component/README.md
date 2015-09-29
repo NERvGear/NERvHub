@@ -48,7 +48,7 @@ The doxygen document starts from here using the `/// ` style comment.
 /// \ingroup mod_com_etc
 ///
 ```
-Use the `\ingroup` command to group a component into different document pages, the component page names are in form `mod_com_` + _CATALOG_ in lower case, available pages are list in previous section.
+Use the `\ingroup` command to group a component into different document pages, the component page names are in form `mod_com_` + _CATALOG_ in lower case, available pages are list in previous section.  
 Ends with an empty line.
 ```
 /// \component NERvGear::ETC::CDemo
