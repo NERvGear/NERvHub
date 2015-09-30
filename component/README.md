@@ -85,7 +85,7 @@ Ends with an empty line.
 ///     N/A
 ///
 ```
-Use the `\see` command to link some other relative components, objects, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
+(Optional) Use the `\see` command to link some other relative components, objects, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
 Ends with an empty line.
 ```
 /// \declid{Component,NERvGear::ETC::ID_CDemo,ETC-A63C-4B33-9826-0567701F6431}
