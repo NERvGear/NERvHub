@@ -59,7 +59,7 @@ Ends with an empty line.
 /// An extra string specified in \a str parameter will also be printed in a new line.
 ///
 ```
-(Optional) Start your detailed description for a object here.  
+(Optional) Start your detailed description for an object here.  
 Ends with an empty line.
 ```
 /// \note
@@ -81,7 +81,7 @@ Ends with an empty line.
 ///     Initial release.
 ///
 ```
-Use the `\version` command for each version to list the revision information for a object.  
+Use the `\version` command for each version to list the revision information for an object.  
 Ends with an empty line.
 ```
 /// \depend{\link PDemoPlugin Demo Plug-in\endlink 1.0.0 and above}
