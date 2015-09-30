@@ -59,7 +59,7 @@ Ends with an empty line.
 ///     N/A
 ///
 ```
-Use the `\see` command to link some other relative interfaces, interfaces, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
+(Optional) Use the `\see` command to link some other relative interfaces, interfaces, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
 Ends with an empty line.
 ```
 /// \declid{Interface,Demo::ID_IDemo,6869424C-F29F-45BF-87DF-63AD8067942B}
