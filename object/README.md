@@ -16,7 +16,7 @@ Here's an example header for `Demo::ODemo` object:
 #ifndef DEMO_ODEMO_H
 #define DEMO_ODEMO_H
 ```
-Define header guard macro in form _NAMESPACE + _OBJECT_NAME_ + `_H` in upper case.
+Define header guard macro in form _NAMESPACE_ + _OBJECT_NAME_ + `_H` in upper case.
 ```CPP
 #include <NERvHub/component/ETC/CDemo.h>
 #include <NERvHub/interface/Demo/IDemo.h>
