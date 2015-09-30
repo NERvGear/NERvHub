@@ -57,7 +57,7 @@ Use the `\component` command to declare a component, full namespace required.
 ```
 /// \extends NERvGear::CUnknown
 ```
-Use the `\extends` command to declare inheritance information. In general, a component  extends from `NERvGear::CUnknown`, if your component is defined basing on another component, it can extend other components too.
+Use the `\extends` command to declare inheritance information, full namespace required. In general, a component extends from `NERvGear::CUnknown`, if your component is defined basing on another component, it can extend other components too.
 ```
 /// \brief Do something cool.
 ///
