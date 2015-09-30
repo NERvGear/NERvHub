@@ -1,4 +1,4 @@
-﻿## Making The Home for An Object
+## Making The Home for An Object
 
 If this is the first time you commit an object to NERvHub, you have to create a folder named after your _USERNAME_ or a unique custom _NAMESPACE_ in `NERvHub\object`, then you can commit all your objects inside it.
 
@@ -26,7 +26,7 @@ Include the headers of the component and interfaces to be implemented, then ther
 namespace Demo {
 ```
 Start the enclosing namespace. Note that the objects(and object IDs) should be defined in the custom namespace.  
-(Optional) You can also use the `\declns` command to force doxygen generate a separate page for a namespace.
+(Optional) You can also use the `\declns{1}` command to force doxygen generating a separate page for a namespace.
 
 The doxygen document starts from here using the `/// ` style comment.
 ```

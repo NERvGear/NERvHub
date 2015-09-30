@@ -1,4 +1,4 @@
-﻿## Choosing The Home for A Component
+## Choosing The Home for A Component
 
 You can place and classify your components in different folders and catalogs according to the components' purposes:
 
