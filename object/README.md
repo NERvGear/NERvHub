@@ -74,7 +74,7 @@ Ends with an empty line.
 ///     N/A
 ///
 ```
-Use the `\see` command to link some other relative objects, objects, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
+(Optional) Use the `\see` command to link some other relative objects, objects, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
 Ends with an empty line.
 ```
 /// \version 1.0.0
