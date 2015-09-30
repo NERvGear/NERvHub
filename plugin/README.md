@@ -103,3 +103,13 @@ End enclosing namespace.
 #endif // NVG_ETC_CDEMO_H
 ```
 The end of the header guard.
+
+## Publishing A Plug-in
+
+If you want your updates or plug-in notification get pushed to the SAO Utils users, you have to:
+
+1. Release the binary data to the `NERvHub\plugin\_YOUR_PLUGIN_FOLDER_\bin` folder.
+2. Fill the update information into the `NERvHub\plugin\_YOUR_PLUGIN_FOLDER_\update.xml` file.
+3. Commit and push to NERvHub.
+
+We will notify the users about your updates or new plug-ins during a particular period of time.
