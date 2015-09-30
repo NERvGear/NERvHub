@@ -6,7 +6,7 @@ If this is the first time you commit an object to NERvHub, you have to create a 
 
 > The demo object is defined in `NERvHub\object\Demo\ODemo.h`.
 
-To implement and publish a new object, what you need is just to write one single header with object ID declaration and Doxygen comments.
+To publish an object you have implemented, what you need is just to write one single header with object ID declaration and Doxygen comments.
 
 The object's name should be started with an 'O' character and must distinguish from other objects in the same namespace.
 
