@@ -100,7 +100,7 @@ Use `NVG_DEFINE_UID()` macro to declare the plug-in ID, you can use the `guidgen
 ```
 End enclosing namespace.
 ```CPP
-#endif // NVG_ETC_CDEMO_H
+#endif // DEMO_PDEMOEXTENSION_H
 ```
 The end of the header guard.
 
