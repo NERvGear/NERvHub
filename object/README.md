@@ -84,11 +84,11 @@ Ends with an empty line.
 Use the `\version` command for each version to list the revision information for an object.  
 Ends with an empty line.
 ```
-/// \depend{\link PDemoPlugin Demo Plug-in\endlink 1.0.0 and above}
+/// \depend{\link PDemoExtension Demo Extension\endlink 1.0.0 and above}
 ```
 Use the `\depend{1}` command to declare the dependencies for an object, use `\n` to separate each dependency item. You can also use the `\link` and `\endlink` command to link another object, so that developers can access the document of that object easily.
 ```
-/// \module{Plugins\\Demo Plug-in\\MODULE.DLL}
+/// \module{Plugins\\Demo Extension\\MODULE.DLL}
 ```
 Use the `\module{1}` command to declare the module providing this object.
 ```
