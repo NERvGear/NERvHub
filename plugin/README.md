@@ -53,7 +53,7 @@ Ends with an empty line.
 ///
 ```
 (Optional) Start your detailed description for a plug-in here.  
-If your plug-in is an open source project, you can link to source repository here.
+If your plug-in is an open source project, you can link to the source repository here.  
 Ends with an empty line.  
 (Optional) You can also use the `\note` command to start your nodes, ends with an empty line.  
 (Optional) Here's the reference of doxygen [Special Commands](http://www.stack.nl/~dimitri/doxygen/manual/commands.html).
