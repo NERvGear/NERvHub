@@ -62,7 +62,7 @@ Ends with an empty line.
 /// - Demo::ODemo (implements NERvGear::ETC::CDemo)
 ///
 ```
-(Optional) Use the `\provideobj{1}` command to list all objects provided by this plug-in. 
+(Optional) Use the `\provideobj{1}` command to list all objects provided by this plug-in. 　
 Ends with an empty line.
 ```
 /// \see
