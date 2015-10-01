@@ -4,13 +4,13 @@ You have to create a folder which is named after your plug-in for each plug-in y
 
 ## Defining A Plug-in
 
-> The demo plug-in is defined in `NERvHub\plugin\Demo Extension\PDemoExtension.h`.
-
 To document a new plug-in, what you need is just to write one single header with plug-in ID declaration and Doxygen comments.
 
 The class name of a plug-in should be started with a 'P' character and must distinguish from other plug-ins already existed.
 
 Here's an example header for `Demo::PDemoExtension` plug-in:
+
+> The demo plug-in is defined in `NERvHub\plugin\Demo Extension\PDemoExtension.h`.
 
 ```CPP
 #ifndef DEMO_PDEMOEXTENSION_H
@@ -116,6 +116,9 @@ If you want your updates or plug-in notification get pushed to the SAO Utils use
 We will notify the users about your updates or new plug-ins during a particular period of time.
 
 Here's an exmple for the `update.xml`:
+
+> The completed XML file is located at `NERvHub\plugin\Demo Extension\update.xml`.
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <extension version="1.0">
@@ -165,5 +168,3 @@ Homepage: http://www.gpbeta.com
 ```
 Note that you must fill the `<en>...</en>` value for all multi-language elements, you can also add other languages by adding languge tags.  
 [Table of Language Culture Names, Codes, and ISO Values Method](https://msdn.microsoft.com/en-us/library/ee825488) this page lists all the valid multi-language tags (the minus `-` of 'Language Culture Name' should be replaced by a underline `_`).
-
-> The completed XML file is located at `NERvHub\plugin\Demo Extension\update.xml`.
