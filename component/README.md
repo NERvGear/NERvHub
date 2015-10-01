@@ -19,13 +19,13 @@ If you want to define a new catalogs, please [open a new issue](https://github.c
 
 ## Defining A Component
 
-> The demo component is defined in `NERvHub\component\ETC\CDemo.h`.
-
 To define and publish a new component, what you need is just to write one single header with component ID declaration and Doxygen comments.
 
 The component's name should be started with a 'C' character and must distinguish from other components in the same catalog.
 
 Here's an example header for `NERvGear::ETC::CDemo` component:
+
+> The demo component is defined in `NERvHub\component\ETC\CDemo.h`.
 
 ```CPP
 #ifndef NVG_ETC_CDEMO_H
