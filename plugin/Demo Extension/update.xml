@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.0">
+    <name>
+        <en>Demo Extension</en>
+        <zh_CHS>演示扩展</zh_CHS>
+        <zh_CHT>演示擴充套件</zh_CHT>
+        <ja_JP>デモエクステンション</ja_JP>
+    </name>
+    <id>A0590A27-BA5B-4298-AF86-7B1C32C2BF9A</id>
+    <version>1.0.0.0</version>
+    <date>2015.10.01</date>
+    <url>
+        <en>http://www.gpbeta.com/en/post/develop/sao-utils/</en>
+        <zh_CHS>http://www.gpbeta.com/post/develop/sao-utils/</zh_CHS>
+        <zh_CHT>http://www.gpbeta.com/post/develop/sao-utils/</zh_CHT>
+        <ja_JP>http://www.gpbeta.com/ja/post/develop/sao-utils/</ja_JP>
+    </url>
+    <download></download>
+    <note>
+        <en>
+<![CDATA[ ***** Demo Extension Update Details *****
+Version: 1.0
+Date: 2015.10.01
+
+This note will be displayed in the updater.
+
+[ Change Log ]
++ Initial release.
+
+[ Links ]
+Homepage: http://www.gpbeta.com
+]]>
+        </en>
+        <zh_CHS>
+<![CDATA[ ***** <演示扩展> 更新详情 *****
+版本: 1.0
+日期: 2015.10.01
+
+本文将显示在更新程序中.
+
+[ 更新日志 ]
++ 初始版本.
+
+[ 链接 ]
+首頁: http://www.gpbeta.com
+]]>
+        </zh_CHS>
+        <zh_CHT>
+<![CDATA[ ***** <演示擴充套件> 更新詳情 *****
+版本: 1.0
+日期: 2015.10.01
+
+本文將顯示于更新程式中.
+
+[ 更新日誌 ]
++ 初始版本.
+
+[ 鏈接 ]
+首頁: http://www.gpbeta.com
+]]>
+        </zh_CHT>
+        <ja_JP>
+<![CDATA[ ***** <デモエクステンション> 更新の詳細 *****
+バージョン: 1.0
+日付: 2015.10.01
+
+このノートはアップデータで表示されます。
+
+[ 変更履歴 ]
++ 初期リリース.
+
+[ リンク ]
+ホームページ: http://www.gpbeta.com
+]]>
+        </ja_JP>
+    </note>
+</extension>
