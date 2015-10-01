@@ -62,14 +62,14 @@ Ends with an empty line.
 /// - Demo::ODemo (implements NERvGear::ETC::CDemo)
 ///
 ```
-Use the `\provideobj{1}` command to list all objects provided by this plug-in. 
+(Optional) Use the `\provideobj{1}` command to list all objects provided by this plug-in. 
 Ends with an empty line.
 ```
 /// \see
 ///     N/A
 ///
 ```
-Use the `\see` command to link some other relative plug-ins, objects, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
+(Optional) Use the `\see` command to link some other relative plug-ins, objects, interfaces, functions, URL, etc. Other developers can append more resources in this section to improve relevance and convenience.  
 Ends with an empty line.
 ```
 /// \version 1.0.0
