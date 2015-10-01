@@ -114,3 +114,56 @@ If you want your updates or plug-in notification get pushed to the SAO Utils use
 3. Commit and push to NERvHub.
 
 We will notify the users about your updates or new plug-ins during a particular period of time.
+
+Here's an exmple for the `update.xml`:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.0">
+    <name>
+        <en>Demo Extension</en>
+        <zh_CHS>演示扩展</zh_CHS>
+    </name>
+    <id>A0590A27-BA5B-4298-AF86-7B1C32C2BF9A</id>
+    <version>1.0.0.0</version>
+    <date>2015.10.01</date>
+    <url>
+        <en>http://www.gpbeta.com/en/post/develop/sao-utils/</en>
+        <zh_CHS>http://www.gpbeta.com/post/develop/sao-utils/</zh_CHS>
+    </url>
+    <download></download>
+    <note>
+        <en>
+<![CDATA[ ***** Demo Extension Update Details *****
+Version: 1.0
+Date: 2015.10.01
+
+This note will be displayed in the updater.
+
+[ Change Log ]
++ Initial release.
+
+[ Links ]
+Homepage: http://www.gpbeta.com
+]]>
+        </en>
+        <zh_CHS>
+<![CDATA[ ***** <演示扩展> 更新详情 *****
+版本: 1.0
+日期: 2015.10.01
+
+本文将显示在更新程序中.
+
+[ 更新日志 ]
++ 初始版本.
+
+[ 链接 ]
+首頁: http://www.gpbeta.com
+]]>
+        </zh_CHS>
+    </note>
+</extension>
+```
+Note that you must fill the `<en>...</en>` value for all multi-language elements, you can also add other languages by adding languge tags.  
+[Table of Language Culture Names, Codes, and ISO Values Method](https://msdn.microsoft.com/en-us/library/ee825488) this page lists all the valid multi-language tags (the minus `-` of 'Language Culture Name' should be replaced by a underline `_`).
+
+> The completed XML file is located at `NERvHub\plugin\Demo Extension\update.xml`.
