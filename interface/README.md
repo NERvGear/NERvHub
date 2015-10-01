@@ -4,13 +4,13 @@ If this is the first time you commit an interface to NERvHub, you have to create
 
 ## Publishing An Interface
 
-> The demo interface is defined in `NERvHub\interface\Demo\IDemo.h`.
-
 To define and publish an interface, what you need is just to write one single header with interface and ID declaration and Doxygen comments.
 
 The interface's name should be started with an 'I' character and must distinguish from other interfaces in the same namespace.
 
 Here's an example header for `Demo::IDemo` interface:
+
+> The demo interface is defined in `NERvHub\interface\Demo\IDemo.h`.
 
 ```CPP
 #ifndef DEMO_IDEMO_H
