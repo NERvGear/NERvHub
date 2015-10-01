@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.0">
+    <name>
+        <en>Leap Motion Extension</en>
+        <zh_CHS>Leap Motion扩展</zh_CHS>
+        <zh_CHT>Leap Motion擴充套件</zh_CHT>
+    </name>
+    <id>5BB77959-379E-4aa8-8D11-993296E84CC3</id>
+    <version>0.0.3.0</version>
+    <date>2015.08.20</date>
+    <url>
+        <en>http://www.debug.moe/sao/leap-motion-ext-page</en>
+        <zh_CHS>http://www.debug.moe/sao/leap-motion-ext-page</zh_CHS>
+        <zh_CHT>http://www.debug.moe/sao/leap-motion-ext-page</zh_CHT>
+    </url>
+    <download></download>
+    <note>
+        <en>
+<![CDATA[ ***** Leap Motion Extension Update Details *****
+Version: 0.0.3-pre
+Date: 2015.08.20
+
+[ Change Log ]
++ Initial release.
+
+[ Links ]
+Homepage: http://www.debug.moe
+]]>
+        </en>
+        <zh_CHS>
+<![CDATA[ ***** <Leap Motion扩展> 更新详情 *****
+版本: 0.0.3-pre
+日期: 2015.08.20
+
+[ 更新日志 ]
++ 初始版本.
+
+[ 链接 ]
+首頁: http://www.debug.moe
+]]>
+        </zh_CHS>
+        <zh_CHT>
+<![CDATA[ ***** <Leap Motion擴充套件> 更新詳情 *****
+版本: 0.0.3-pre
+日期: 2015.08.20
+
+[ 更新日誌 ]
++ 初始版本.
+
+[ 鏈接 ]
+首頁: http://www.debug.moe
+]]>
+        </zh_CHT>
+    </note>
+</extension>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.0">
+    <name>
+        <en>Shortcut Keys Extension</en>
+        <zh_CHS>快捷键扩展</zh_CHS>
+    </name>
+    <id>380FC664-122D-41fe-B177-F45437BC421D</id>
+    <version>0.2.1.0</version>
+    <date>2015.09.08</date>
+    <url>
+        <en>http://www.debug.moe/sao/shortcut-keys-ext-page</en>
+        <zh_CHS>http://www.debug.moe/sao/shortcut-keys-ext-page</zh_CHS>
+    </url>
+    <download></download>
+    <note>
+        <en>
+<![CDATA[ ***** Shortcut Keys Extension Update Details *****
+Version: 0.2.1
+Date: 2015.09.08
+
+Add keyboard shortcuts' simulation function to SAO Utils, in URL form or DataSource form.
+
+[ Links ]
+Homepage: http://www.debug.moe
+]]>
+        </en>
+        <zh_CHS>
+<![CDATA[ ***** <快捷键扩展> 更新详情 *****
+版本: 0.2.1
+日期: 2015.09.08
+
+支持以URL和数据源两种方式为SAO Utils添加模拟快捷键功能。
+
+[ 链接 ]
+首頁: http://www.debug.moe
+]]>
+        </zh_CHS>
+    </note>
+</extension>
