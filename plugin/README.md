@@ -121,7 +121,7 @@ Here's an exmple for the `update.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<extension version="1.0">
+<extension version="1.1">
     <name>
         <en>Demo Extension</en>
         <zh_CHS>演示扩展</zh_CHS>
@@ -129,6 +129,8 @@ Here's an exmple for the `update.xml`:
     <id>A0590A27-BA5B-4298-AF86-7B1C32C2BF9A</id>
     <version>1.0.0.0</version>
     <date>2015.10.01</date>
+    <author>GPBeta</author>
+    <website>http://www.gpbeta.com/</website>
     <url>
         <en>http://www.gpbeta.com/en/post/develop/sao-utils/</en>
         <zh_CHS>http://www.gpbeta.com/post/develop/sao-utils/</zh_CHS>
@@ -168,3 +170,5 @@ Homepage: http://www.gpbeta.com
 ```
 Note that you must fill the `<en>...</en>` value for all multi-language elements, you can also add other languages by adding languge tags.  
 [Table of Language Culture Names, Codes, and ISO Values Method](https://msdn.microsoft.com/en-us/library/ee825488) this page lists all the valid multi-language tags (the minus `-` of 'Language Culture Name' should be replaced by a underline `_`).
+
+Leave `<download>...</download>` value blank then we will host files and generate the download link for your plug-in.
