@@ -5,8 +5,8 @@
         <zh_CHS>音乐播放器支持</zh_CHS>
     </name>
     <id>2DF313A1-E3D0-4196-A0B3-03ADF7F12316</id>
-    <version>0.1.0.0</version>
-    <date>2015.09.20</date>
+    <version>0.2.0.0</version>
+    <date>2015.12.06</date>
     <url>
         <en>http://www.debug.moe/sao/music-player-sp-page</en>
         <zh_CHS>http://www.debug.moe/sao/music-player-sp-page</zh_CHS>
@@ -15,8 +15,8 @@
     <note>
         <en>
 <![CDATA[ ***** Music Player Support Update Details *****
-Version: 0.1.0
-Date: 2015.09.20
+Version: 0.2.0
+Date: 2015.12.06
 
 Supports CAD compatible players, NetEase Cloud Music, Xiami Music, QQ Music, Kugou Music. 
 Add scrolling mode, solve the long text display problem. 
@@ -27,8 +27,8 @@ Homepage: http://www.debug.moe
         </en>
         <zh_CHS>
 <![CDATA[ ***** <音乐播放器支持> 更新详情 *****
-版本: 0.1.0
-日期: 2015.09.20
+版本: 0.2.0
+日期: 2015.12.06
 
 现已支持CAD兼容播放器、网易云音乐、虾米音乐、QQ音乐、酷狗音乐。
 新增滚动模式，解决文字过长问题。

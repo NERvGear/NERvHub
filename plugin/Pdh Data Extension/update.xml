@@ -6,8 +6,8 @@
         <zh_CHT>PDH數據擴充套件</zh_CHT>
     </name>
     <id>0C997385-27C7-444d-B1A3-3D75D9CCC479</id>
-    <version>0.1.6.0</version>
-    <date>2015.08.20</date>
+    <version>0.1.7.0</version>
+    <date>2015.12.06</date>
     <url>
         <en>http://www.debug.moe/sao/pdh-data-ext-page</en>
         <zh_CHS>http://www.debug.moe/sao/pdh-data-ext-page</zh_CHS>
@@ -17,8 +17,8 @@
     <note>
         <en>
 <![CDATA[ ***** PDH Data Extension Update Details *****
-Version: 0.1.6
-Date: 2015.08.20
+Version: 0.1.7
+Date: 2015.12.06
 
 [ Change Log ]
 + Initial release.
@@ -29,8 +29,8 @@ Homepage: http://www.debug.moe
         </en>
         <zh_CHS>
 <![CDATA[ ***** <PDH数据扩展> 更新详情 *****
-版本: 0.1.6
-日期: 2015.08.20
+版本: 0.1.7
+日期: 2015.12.06
 
 [ 更新日志 ]
 + 初始版本.
@@ -41,8 +41,8 @@ Homepage: http://www.debug.moe
         </zh_CHS>
         <zh_CHT>
 <![CDATA[ ***** <PDH數據擴充套件> 更新詳情 *****
-版本: 0.1.6
-日期: 2015.08.20
+版本: 0.1.7
+日期: 2015.12.06
 
 [ 更新日誌 ]
 + 初始版本.
