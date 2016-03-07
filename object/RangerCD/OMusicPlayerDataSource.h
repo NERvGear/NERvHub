@@ -45,6 +45,9 @@ namespace RangerCD {
 /// - Kugou Music
 ///   - Data UID: RangerCD::MusicPlayer::ID_KUGOU
 ///   - Data Values: RangerCD::MusicPlayer::Kugou::VALUE
+/// - TT Player
+///   - Data UID: RangerCD::MusicPlayer::ID_TT
+///   - Data Values: RangerCD::MusicPlayer::TTPlayer::VALUE
 ///
 /// All of the value types are fixed and indicated by the prefix of their IDs.
 ///
@@ -134,6 +137,18 @@ enum VALUE {
 
 } // Kugou
 
+/// \declns{RangerCD::MusicPlayer::TTPlayer}
+namespace TTPlayer {
+
+/// \brief TT Player value IDs.
+enum VALUE {
+	STR_INFO,
+	STR_CUSTOM,
+};
+
+
+} // TTPlayer
+
 
 NVG_DEFINE_UID(ID_UNI,     0x64f23bc6, 0xcdf7, 0x4cbb, 0xb1, 0xcd, 0xee, 0xdd, 0xf3, 0x92, 0xfd, 0x21); ///< 64F23BC6-CDF7-4cbb-B1CD-EEDDF392FD21
 NVG_DEFINE_UID(ID_CAD,     0x26ddf5cf, 0x528b, 0x46b4, 0xb1, 0x84, 0x19, 0xed, 0x77, 0x1d, 0x49, 0x5d); ///< 26DDF5CF-528B-46b4-B184-19ED771D495D
@@ -141,6 +156,7 @@ NVG_DEFINE_UID(ID_NETEASE, 0x80b56631, 0x8172, 0x45e8, 0xab, 0x34, 0x64, 0xb3, 0
 NVG_DEFINE_UID(ID_XIAMI,   0x0a14d6b5, 0x76f8, 0x428b, 0xa9, 0xce, 0x50, 0x53, 0x1d, 0x96, 0x97, 0xd4); ///< 0A14D6B5-76F8-428b-A9CE-50531D9697D4
 NVG_DEFINE_UID(ID_QQMUSIC, 0x0450128c, 0x1180, 0x4f65, 0x91, 0x82, 0xd9, 0x1c, 0x7a, 0x33, 0x7c, 0x51); ///< 0450128C-1180-4f65-9182-D91C7A337C51
 NVG_DEFINE_UID(ID_KUGOU,   0x0942461a, 0xe21c, 0x4ac1, 0xa4, 0x1d, 0x25, 0x66, 0x8f, 0x29, 0x44, 0xdd); ///< 0942461A-E21C-4ac1-A41D-25668F2944DD
+NVG_DEFINE_UID(ID_TT,      0x67b247ba, 0x8f69, 0x4680, 0x84, 0xd7, 0xc1, 0x01, 0x90, 0x3f, 0xf4, 0x6e); ///< 67B247BA-8F69-4680-84D7-C101903FF46E
 
 } // MusicPlayer
 

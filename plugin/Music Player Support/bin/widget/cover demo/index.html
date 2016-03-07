@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Cover Demo</title>
+    <script language="javascript" type="text/javascript" src="jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="cover.js"></script>
+    <style>
+		.grid {
+			position: absolute;
+		}
+	
+        .l-t {
+            height: 10px;
+            width: 10px;
+            top: 0px;
+            left: 0px;
+            background-image: url("left-top.png");
+        }
+
+        .t {
+            height: 10px;
+            width: auto;
+            top: 0px;
+            left: 10px;
+            right: 10px;
+            background-image: url("top.png");
+        }
+
+        .r-t {
+            height: 10px;
+            width: 10px;
+            top: 0px;
+            right: 0px;
+            background-image: url("right-top.png");
+        }
+
+        .l {
+            height: auto;
+            width: 10px;
+            top: 10px;
+            left: 0px;
+            bottom: 10px;
+            background-image: url("left.png");
+        }
+
+        .r {
+            height: auto;
+            width: 10px;
+            top: 10px;
+            bottom: 10px;
+            right: 0px;
+            background-image: url("right.png");
+        }
+
+        .l-b {
+            height: 10px;
+            width: 10px;
+            left: 0px;
+            bottom: 0px;
+            background-image: url("left-bottom.png");
+        }
+
+        .b {
+            height: 10px;
+            width: auto;
+            left: 10px;
+            bottom: 0px;
+            right: 10px;
+            background-image: url("bottom.png");
+        }
+
+        .r-b {
+            height: 10px;
+            width: 10px;
+            bottom: 0px;
+            right: 0px;
+            background-image: url("right-bottom.png");
+        }
+
+        .bg {
+            width: auto;
+            height: auto;
+            top: 10px;
+            left: 10px;
+            bottom: 10px;
+            right: 10px;
+            background-image: url("bg.png");
+        }
+
+        .cover {
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            max-height: 100%;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="grid l-t"></div>
+        <div class="grid t"></div>
+        <div class="grid r-t"></div>
+    </div>
+    <div>
+        <div class="grid l"></div>
+        <div class="grid bg">
+            <img class="cover" id="cover" src="" onerror='this.src="unknown.png"'/>
+        </div>
+        <div class="grid r"></div>
+    </div>
+    <div>
+        <div class="grid l-b"></div>
+        <div class="grid b"></div>
+        <div class="grid r-b"></div>
+    </div>
+</body>
+</html>

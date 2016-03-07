@@ -1,0 +1,94 @@
+
+.item {
+    font-family: 微软雅黑;
+    width: auto;
+    min-height: 24px;
+    color: #FFF;
+    background: rgba(0,0,0,0.5);
+    padding: 0 4px 0 4px;
+    line-height: 140%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.square {
+    float: left;
+    height: 50px;
+    width: 44px;
+    text-align: center;
+    line-height: 300%;
+    background: rgba(99,99,99,0.5);
+}
+
+.line {
+    margin-bottom: 2px;
+}
+
+.v-layout {
+    width: auto;
+    margin-left: 54px;
+}
+
+
+.progress {
+    height: 16px;
+    margin-top: 4px;
+    color: #333;
+    background: #EEE;
+    border-right: 2px solid #999;
+    text-align: center;
+    line-height: 100%;
+}
+
+.head .left {
+    margin-right: 54px;
+}
+
+.head .right {
+    float: right;
+    width: 44px;
+}
+
+.main .left {
+    float: left;
+    width: 44px;
+}
+
+.main .right {
+    width: auto;
+}
+
+.extra .left {
+    margin-right: 22px;
+    overflow: auto;
+    white-space: normal;
+}
+
+.extra .right {
+    float: right;
+    width: 20px;
+    padding: 0px;
+    text-align: center;
+    cursor: default;
+}
+
+.extra .right:hover {
+    background: rgba(99,99,99,0.5);
+}
+
+#note textarea {
+    margin: 1px -4px 1px  -3px;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    overflow-y: hidden;
+}
+
+#note pre {
+    margin: 0px;
+    word-wrap: break-word;
+}
+
+.clear {
+    clear: both;
+}
